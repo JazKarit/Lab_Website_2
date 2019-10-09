@@ -160,6 +160,7 @@ function switchPlayer(i){
 	document.getElementById("p_major").innerHTML = players[i].major;
 	document.getElementById("g_played").innerHTML = players[i].games_played;
 	document.getElementById("player_img").src = players[i].img;
+	document.getElementById("player_img").alt = "Placeholder for player " + i;
 	document.getElementById("p_yards").innerHTML = players[i].pass_yards;
 	document.getElementById("r_yards").innerHTML = players[i].rushing_yards;
 	document.getElementById("rec_yards").innerHTML = players[i].receiving_yards;
